@@ -1,0 +1,23 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    
+    <!-- Customized theme -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        
+        <!-- Sets all page texts (excluding button text) to white -->
+        <item name="android:textColor">@color/white</item>
+        
+        <!-- Sets all page background to black -->
+        <item name="android:windowBackground">@color/DarkerGray</item>
+        
+    </style>
+    <style name="LoginFormContainer">
+       <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:padding">16dp</item>
+   </style>
+</resources>
